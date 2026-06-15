@@ -4,7 +4,7 @@
 
 iOS 字型載入器 - 支援系統內建字型和外部的 TTF 字型檔案，自動註冊並提供全域 Font 存取。
 
-![WWFontLoader](https://github.com/user-attachments/assets/d40712e5-2625-4958-a2d6-ef479752bcbf)
+![WWFontLoader](https://github.com/user-attachments/assets/67b0037c-b282-49e3-9f99-738068e71b01)
 
 ## ✨ 特性
 

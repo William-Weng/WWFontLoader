@@ -4,7 +4,7 @@
 
 An iOS font loader that supports built-in system fonts and external TTF font files, automatically registers them, and provides global Font access.
 
-![WWFontLoader](https://github.com/user-attachments/assets/d40712e5-2625-4958-a2d6-ef479752bcbf)
+![WWFontLoader](https://github.com/user-attachments/assets/67b0037c-b282-49e3-9f99-738068e71b01)
 
 ## ✨ Features
 
