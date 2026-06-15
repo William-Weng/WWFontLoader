@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81471EC22FDFF79400B744B3 /* WWFontLoader in Frameworks */ = {isa = PBXBuildFile; productRef = 81471EC12FDFF79400B744B3 /* WWFontLoader */; };
+		8180A44F2FDFF813003C2F30 /* WWFontLoader in Frameworks */ = {isa = PBXBuildFile; productRef = 8180A44E2FDFF813003C2F30 /* WWFontLoader */; };
 		81DB6C282FDF8ACD0048623B /* WWFontLoader in Frameworks */ = {isa = PBXBuildFile; productRef = 81DB6C272FDF8ACD0048623B /* WWFontLoader */; };
 		81DB6C302FDF92940048623B /* WWFontLoader in Frameworks */ = {isa = PBXBuildFile; productRef = 81DB6C2F2FDF92940048623B /* WWFontLoader */; };
 /* End PBXBuildFile section */
@@ -41,7 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8180A44F2FDFF813003C2F30 /* WWFontLoader in Frameworks */,
 				81DB6C302FDF92940048623B /* WWFontLoader in Frameworks */,
+				81471EC22FDFF79400B744B3 /* WWFontLoader in Frameworks */,
 				81DB6C282FDF8ACD0048623B /* WWFontLoader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +91,8 @@
 			packageProductDependencies = (
 				81DB6C272FDF8ACD0048623B /* WWFontLoader */,
 				81DB6C2F2FDF92940048623B /* WWFontLoader */,
+				81471EC12FDFF79400B744B3 /* WWFontLoader */,
+				8180A44E2FDFF813003C2F30 /* WWFontLoader */,
 			);
 			productName = Example;
 			productReference = 817EE1FE2EB1FA050036B57C /* Example.app */;
@@ -117,7 +123,7 @@
 			mainGroup = 817EE1F52EB1FA050036B57C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				81449C932FDF9460004FE904 /* XCRemoteSwiftPackageReference "WWFontLoader" */,
+				8180A44D2FDFF813003C2F30 /* XCRemoteSwiftPackageReference "WWFontLoader" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 817EE1FF2EB1FA050036B57C /* Products */;
@@ -361,17 +367,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81449C932FDF9460004FE904 /* XCRemoteSwiftPackageReference "WWFontLoader" */ = {
+		8180A44D2FDFF813003C2F30 /* XCRemoteSwiftPackageReference "WWFontLoader" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWFontLoader";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		81471EC12FDFF79400B744B3 /* WWFontLoader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WWFontLoader;
+		};
+		8180A44E2FDFF813003C2F30 /* WWFontLoader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8180A44D2FDFF813003C2F30 /* XCRemoteSwiftPackageReference "WWFontLoader" */;
+			productName = WWFontLoader;
+		};
 		81DB6C272FDF8ACD0048623B /* WWFontLoader */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WWFontLoader;

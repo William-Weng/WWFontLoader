@@ -21,7 +21,7 @@ An iOS font loader that supports built-in system fonts and external TTF font fil
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/William-Weng/WWFontLoader.git", from: "1.0.0")
+    .package(url: "https://github.com/William-Weng/WWFontLoader.git", from: "1.1.0")
 ]
 ```
 
@@ -32,6 +32,9 @@ dependencies: [
 | `loadFont(source:)` | Loads a font. |
 | `postScriptName(from:)` | Reads the PostScript name from a TTF file. |
 | `checkFontRegistered(postScriptName:)` | Checks whether the font has already been registered. |
+| `fontSize(for:in:maxLines:strategy:fontSize:fontFactor:) `| Calculates only the font point size, without returning the text bounding box dimensions. |
+| `textSize(for:font:constrainedTo:maxLines:strategy:) `| Calculates the actual bounding size occupied by the text under a specified font. |
+| `calculate(for:in:maxLines:strategy:fontSize:fontFactor:font:) `| Simultaneously calculates both the font point size and the text bounding box dimensions. |
 
 ## 🚀 [Example](https://peterpanswift.github.io/iphone-bezels/)
 
