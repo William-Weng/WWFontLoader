@@ -2,6 +2,12 @@
 
 # [WWFontLoader](https://swiftpackageindex.com/William-Weng)
 
+[![Swift-5.7](https://img.shields.io/badge/Swift-5.7-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![iOS-16.0](https://img.shields.io/badge/iOS-16.0-pink.svg?style=flat)](https://developer.apple.com/swift/)
+![Version](https://img.shields.io/github/v/tag/William-Weng/WWFontLoader)
+[![Swift Package Manager-SUCCESS](https://img.shields.io/badge/Swift_Package_Manager-SUCCESS-blue.svg?style=flat)](https://developer.apple.com/swift/)
+[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-yellow.svg?style=flat)](https://developer.apple.com/swift/)
+
 iOS 字型載入器 - 支援系統內建字型和外部的 TTF 字型檔案，自動註冊並提供全域 Font 存取。
 
 ![WWFontLoader](https://github.com/user-attachments/assets/67b0037c-b282-49e3-9f99-738068e71b01)

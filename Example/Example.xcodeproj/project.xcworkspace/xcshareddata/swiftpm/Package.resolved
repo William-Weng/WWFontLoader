@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWFontLoader",
       "state" : {
-        "revision" : "d24d6e89c7d15e1e614254edeaba3c06ae65e92b",
-        "version" : "1.0.1"
+        "revision" : "e1005f225ce70948f1ef5fd698a54dfdca5e9bf7",
+        "version" : "1.1.0"
       }
     }
   ],
