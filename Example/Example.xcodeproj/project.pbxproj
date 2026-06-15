@@ -117,7 +117,7 @@
 			mainGroup = 817EE1F52EB1FA050036B57C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				81DB6C462FDF938C0048623B /* XCRemoteSwiftPackageReference "WWFontLoader" */,
+				81449C932FDF9460004FE904 /* XCRemoteSwiftPackageReference "WWFontLoader" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 817EE1FF2EB1FA050036B57C /* Products */;
@@ -361,12 +361,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81DB6C462FDF938C0048623B /* XCRemoteSwiftPackageReference "WWFontLoader" */ = {
+		81449C932FDF9460004FE904 /* XCRemoteSwiftPackageReference "WWFontLoader" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWFontLoader";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
