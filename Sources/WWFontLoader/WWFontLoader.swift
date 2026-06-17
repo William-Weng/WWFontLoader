@@ -1,5 +1,9 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+//
+//  WWFontLoader.swift
+//  WWFontLoader
+//
+//  Created by William.Weng on 2026/6/15.
+//
 
 import UIKit
 import CoreText
